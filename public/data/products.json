@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": "p01",
+      "title": "Cámara IP 1080p",
+      "price": 299900,
+      "stock": 8,
+      "image": "/img/camara.webp"
+    },
+    {
+      "id": "p02",
+      "title": "NVR 8 Canales",
+      "price": 899900,
+      "stock": 3,
+      "image": "/img/hikvision.png"
+    },
+    {
+      "id": "p03",
+      "title": "Cable UTP Cat6 305m",
+      "price": 449900,
+      "stock": 0,
+      "image": "/img/cable.webp"
+    }
+  ],
+  "shipping": 15000,
+  "taxRate": 0.19
+}
