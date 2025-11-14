@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/slices/cartSlice";
 
-export default function ProductCard({ product }) {
+export const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
 
   return (
@@ -37,4 +37,4 @@ export default function ProductCard({ product }) {
       </div>
     </div>
   );
-}
+};

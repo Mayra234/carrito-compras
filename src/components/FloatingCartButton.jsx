@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleCart } from "../redux/slices/cartSlice";
 
-export default function FloatingCartButton() {
+export const FloatingCartButton = () => {
   const dispatch = useDispatch();
   const items = useSelector((s) => s.cart.items);
   const count = items.reduce((acc, i) => acc + i.quantity, 0);
@@ -16,4 +16,4 @@ export default function FloatingCartButton() {
       {count > 0 && <span className="cart-badge">{count}</span>}
     </button>
   );
-}
+};

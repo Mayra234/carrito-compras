@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { toggleCart, clearCart } from "../redux/slices/cartSlice";
 import CartItem from "./CartItem";
 
-export default function CartDrawer() {
+export const CartDrawer = () => {
   const { items, isOpen } = useSelector((s) => s.cart);
   const dispatch = useDispatch();
 
@@ -76,4 +76,4 @@ export default function CartDrawer() {
       </div>
     </aside>
   );
-}
+};
