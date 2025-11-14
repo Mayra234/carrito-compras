@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { toggleCart, clearCart } from "../redux/slices/cartSlice";
-import CartItem from "./CartItem";
+import { CartItem } from "./CartItem";
 
 export const CartDrawer = () => {
   const { items, isOpen } = useSelector((s) => s.cart);

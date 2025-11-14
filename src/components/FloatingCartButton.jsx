@@ -12,7 +12,12 @@ export const FloatingCartButton = () => {
       className="floating-cart-btn"
       aria-label={`Abrir carrito, ${count} items`}
       onClick={() => dispatch(toggleCart())}>
-      <span className="cart-emoji">🛒</span>
+      <img
+        className="cart-emoji"
+        src="img/carro.png"
+        alt="Icon de compra"
+        width={30}
+      />
       {count > 0 && <span className="cart-badge">{count}</span>}
     </button>
   );

@@ -1,11 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import ProductCard from "../components/ProductCard";
-import CartDrawer from "../components/CartDrawer";
-import FloatingCartButton from "../components/FloatingCartButton";
-import Header from "../components/Header";
-
 import productsJson from "../../public/data/products.json";
+import { CartDrawer } from "@/components/CartDrawer";
+import { FloatingCartButton } from "@/components/FloatingCartButton";
+import { Header } from "@/components/Header";
+import { ProductCard } from "@/components/ProductCard";
 
 export default function Home() {
   const [products] = useState(productsJson.products);
