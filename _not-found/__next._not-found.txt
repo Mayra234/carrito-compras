@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[42808,["/carrito-compras/_next/static/chunks/bc265121b0a3b7a6.js","/carrito-compras/_next/static/chunks/ce05ba6259e0765b.js","/carrito-compras/_next/static/chunks/3274739a2e2b8570.js"],"default"]
+3:I[6850,["/carrito-compras/_next/static/chunks/bc265121b0a3b7a6.js","/carrito-compras/_next/static/chunks/ce05ba6259e0765b.js","/carrito-compras/_next/static/chunks/3274739a2e2b8570.js"],"default"]
+0:{"buildId":"GRW7qVd-3MV2ro6iCqJ5A","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}

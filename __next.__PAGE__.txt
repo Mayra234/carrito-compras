@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[8472,["/carrito-compras/_next/static/chunks/3274739a2e2b8570.js"],"ClientPageRoot"]
+3:I[92552,["/carrito-compras/_next/static/chunks/bc265121b0a3b7a6.js","/carrito-compras/_next/static/chunks/ce05ba6259e0765b.js","/carrito-compras/_next/static/chunks/55a79315b489f99f.js"],"default"]
+6:I[50300,["/carrito-compras/_next/static/chunks/3274739a2e2b8570.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"buildId":"GRW7qVd-3MV2ro6iCqJ5A","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/carrito-compras/_next/static/chunks/55a79315b489f99f.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:{}
+8:null
